@@ -8,10 +8,11 @@ devnet_sandbox = {
     'port': 22,
 }
 
-# The connection logic
 try:
     with ConnectHandler(**devnet_sandbox) as net_connect:
         print("Successfully connected to Cisco Sandbox!")
         
         output = net_connect.send_command("show version")
         print(output)
+exept Exception as e:
+    print(f"Connection failed: {e}")
