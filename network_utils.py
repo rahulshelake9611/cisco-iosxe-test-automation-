@@ -1,10 +1,10 @@
 from netmiko import ConnectHandler
 
 devnet_sandbox = {
-    'device_type': 'cisco_ios',
+    'device_type': 'cisco_nxos',
     'host': 'devnetsandboxiosxec9k.cisco.com',
     'username': 'rahulshelake9611',
-    'password': '-Kg62wa4_pNh-CjO',
+    'password': 'X4P-6-5eBS4cvVpZ',
     'port': 22,
 }
 
